@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;400&family=Monoton&family=Pacifico&display=swap');
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 360px;
+  min-width: 240px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin: 8px;
+}
+
+.linkedin-icon {
+  content: url('./assets/linkedin-icon.svg');
+  width: 30px;
+  height: 30px;
+  /* background-color: #E9E3D5; */
+  display: inline-block;
+  margin-right: 5px;
+  border-radius: 50%;
+  border: 2px solid #242424;
+  transition: all 0.5s ease-in-out;
+}
+
+.linkedin-icon:hover {
+  background-image: linear-gradient(to right, #FDA521, #e1ff00, #033043);
+  border: 2px solid #F6BA2A;
+  box-shadow: 0 0 5px #fff;
+}
+
+.github-icon {
+  content: url('./assets/github-mark-white.svg');
+  width: 30px;
+  height: 30px;
+  /* background-color: #E9E3D5; */
+  display: inline-block;
+  border-radius: 50%;
+  border: 2px solid #242424;
+  transition: all 0.5s ease-in-out;
+}
+
+.github-icon:hover {
+  background-image: linear-gradient(to right, #FDA521, #e1ff00, #033043);
+  border: 2px solid #F6BA2A;
+  box-shadow: 0 0 5px #fff;
+}
+
+.mail-icon {
+  content: url('./assets/mail.svg');
+  width: 30px;
+  height: 30px;
+  /* background-color: #E9E3D5; */
+  display: inline-block;
+  border-radius: 50%;
+  border: 2px solid #242424;
+  transition: all 0.5s ease-in-out;
+}
+
+.mail-icon:hover {
+  background-image: linear-gradient(to right, #FDA521, #e1ff00, #033043);
+  border: 2px solid #F6BA2A;
+  box-shadow: 0 0 5px #fff;
+}
+
+.mdo-logo {
+  display: flex;
+  justify-content: space-between;
+  /* flex-direction: row; */
+  /* align-content: center; */
+  align-items: center;
+  /* border: 2px solid #242424; */
+  padding: 4px;
+  height: 40px;
+  transition: all 0.5s ease-in-out;
+  border-radius: 8px;
+}
+
+.mdo-logo:hover {
+  /* background-image: linear-gradient(to right, #FDA521, #e1ff00, #033043); */
+  /* border: 2px solid #F6BA2A; */
+  box-shadow: 0 0 10px #fff;
+}
+
+.mdo-icon {
+  content: url('./assets/mdo.svg');
+  width: 30px;
+  height: 30px;
+  /* background-color: #E9E3D5; */
+  /* display: inline-block; */
+  /* transition: all 0.8s ease-in-out; */
+}
+
+.mdo-title {
+  font-family: 'Pacifico', cursive;
+  font-size: 24px;
+  text-shadow: 1px 1px rgb(44, 44, 44);
+  line-height: 1.8;
+  color: #FDA521;
+  letter-spacing: 0.05em;
+  padding: 5px;
+}
+
+
+/* .mdo-title:hover {
+  background-image: linear-gradient(to right, #FDA521, #e1ff00, #033043);
+  border: 2px solid #F6BA2A;
+  box-shadow: 0 0 5px #fff;
+} */
+
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.project {
+  text-align: left;
+  font-size: 12px;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
