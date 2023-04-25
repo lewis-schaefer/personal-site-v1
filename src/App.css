@@ -13,7 +13,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  max-width: 360px;
+  max-width: 420px;
   min-width: 240px;
 }
 
@@ -28,8 +28,8 @@
 
 .linkedin-icon {
   content: url('./assets/linkedin-icon.svg');
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   /* background-color: #E9E3D5; */
   display: inline-block;
   margin-right: 5px;
@@ -46,8 +46,8 @@
 
 .github-icon {
   content: url('./assets/github-mark-white.svg');
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   /* background-color: #E9E3D5; */
   display: inline-block;
   border-radius: 50%;
@@ -63,8 +63,8 @@
 
 .mail-icon {
   content: url('./assets/mail.svg');
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   /* background-color: #E9E3D5; */
   display: inline-block;
   border-radius: 50%;
